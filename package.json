@@ -1,0 +1,18 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "# Description MongoDB is a popular choice for many social networks due to its speed with large amounts of data and flexibility. We have built an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. Here we use Express.js for routing, a MongoDB database, and the Mongoose ODM.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1",
+    "nodemon": "^2.0.22"
+  }
+}
