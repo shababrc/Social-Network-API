@@ -35,6 +35,5 @@ const reactionSchema = new Schema(
       }
 );
 
-  // Initialize our Thought model
-const Reaction = model('Reaction', reactionSchema);
-module.exports = Reaction;
+
+module.exports = reactionSchema;
