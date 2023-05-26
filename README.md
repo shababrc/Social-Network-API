@@ -41,6 +41,7 @@ By implementing these features, we have developed a robust social network API th
 https://github.com/shababrc/Social-Network-API
 
 ## Link to Walkthrough Video
+https://youtu.be/LLXAuuQJhhg
 
 ## Credits
 Big thanks to the rest of the bootcamp class for their help, as well as Bryan and Shawn for their expertise. Thanks to tutors Irina Kudosova, and Jehyun Jung.
