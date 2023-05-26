@@ -3,7 +3,7 @@ const { Thought, Application } = require('../models');
 module.exports = {
   // Get all thoughts
   getThoughts(req, res) {
-    User.find()
+    Thought.find()
       .then((thoughts) => res.json(thoughts))
       .catch((err) => res.status(500).json(err));
   },
@@ -12,7 +12,7 @@ module.exports = {
     Thought.findOne({ _id: req.params.thoughtId })
       .select('-__v')
       .then((thought) =>
-        !user
+        !thought
           ? res.status(404).json({ message: 'No thought with that ID' })
           : res.json(thought)
       )

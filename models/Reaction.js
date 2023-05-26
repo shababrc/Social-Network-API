@@ -5,7 +5,8 @@ const reactionSchema = new Schema(
     { 
         reactionId:{
             type: ObjectId,
-            required: true,
+            required: false,
+            autoIncrement: true,
         },
         reactionBody:{
             type: String,
@@ -31,7 +32,7 @@ const reactionSchema = new Schema(
         toJSON: {
           virtuals: true,
         },
-        id: false,
+        id: true,
       }
 );
 
